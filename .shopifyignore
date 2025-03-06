@@ -1,1 +1,5 @@
-settings_data.json
+# Ignore all JSON files:
+*.json
+
+# But explicitly *include* settings_schema.json
+!config/settings_schema.json

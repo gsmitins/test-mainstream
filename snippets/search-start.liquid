@@ -1,0 +1,77 @@
+<div id="predictive-search-focus-results" class="custom-desktop">
+  
+  <div class="popular-searches desktop_hidden-gs">
+                        <h2>{{ section.settings.popular_searches_title }}</h2>
+                        <ul class="popular-searches-ul">
+                            {% for block in section.blocks %}
+                              {% if block.type == 'popular_search' %}
+                                  <li><a href="/search?q={{ block.settings.label | replace: ' ', '+' }}">{{ block.settings.label }}</a></li>
+                              {% endif %}
+                          {% endfor %}
+                        </ul>
+                    </div>
+
+  
+  <div class="upper-search-start">
+                    <div class="popular-searches mobile_hidden-gs">
+                        <h2>{{ section.settings.popular_searches_title }}</h2>
+                        <ul class="popular-searches-ul">
+                            {% for block in section.blocks %}
+                              {% if block.type == 'popular_search' %}
+                                  <li><a href="/search?q={{ block.settings.label | replace: ' ', '+' }}">{{ block.settings.label }}</a></li>
+                              {% endif %}
+                          {% endfor %}
+                        </ul>
+                    </div>
+    <div class="divider-search"></div>
+              <div class="useful-pages popular-searches">
+                        <h2>{{ section.settings.useful_pages_title }}</h2>
+                        <nav>
+                            <ul class="popular-searches-ul">
+                                 {% for link in linklists[section.settings.useful_page].links %}
+                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div>
+  </div>
+  <div class="divider-search-horizontal"></div>
+                    <div class="bottom-search-start">
+                        <h2>{{ section.settings.popular_collections_title }}</h2>
+                         <div class="collection__list-loop row grid__wrapper collections-grid">
+            {% for block in section.blocks limit: section.blocks.size %}
+                {% if block.type == 'popular_collection' %}
+                    {% assign collection = collections[block.settings.collection] %}
+                    <div class="collection__list-item auto collection__list-item span-3 sm-span-6 auto" data-alpha="{{ collection.title }}">
+                        <div class="collection__item-image">
+                            <a href="{{ collection.url }}" title="{{ collection.title }}">
+                                {% if block.settings.image %}
+                                    {%
+                                      render 'basic-responsive-image',
+                                      type: block.settings.image,
+                                      width: 1200,
+                                      loading: 'lazy'
+                                    %}
+                                {% elsif collection.products.first and collection.products.first.media != empty %}
+                                    {%
+                                      render 'basic-responsive-image',
+                                      type: collection.products.first.featured_media.preview_image,
+                                      width: 1200,
+                                      loading: 'lazy'
+                                    %}
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="collection__item-details">
+                            <a href="{{ collection.url }}" title="{{ collection.title }}">
+                                <p class="collection--title">{{ block.settings.title }}</p>
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+                      
+                    </div>
+                    
+                </div>

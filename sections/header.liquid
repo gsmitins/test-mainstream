@@ -345,7 +345,7 @@
   <a href="#" class="header-shade mobile-nav-toggle" aria-label="{{ 'general.navigation.close' | t }}"></a>
 </page-header>
 
-<div style="margin-inline: auto; width: 100%; justify-content: center; display: flex; padding: 20px; background: blue; color: white;" class="with-a-custom-class">THIS IS THE NEW TEST HEADER / Banner {{ section.settings.new_banner_test }}</div>
+<div style="margin-inline: auto; width: 100%; justify-content: center; display: flex; padding: 20px; background: {{ section.settings.custom_header_color }}; color: white;" class="with-a-custom-class">THIS IS THE NEW TEST HEADER / Banner {{ section.settings.new_banner_test }}</div>
 
    <style>
     div#predictive-search-focus-results{
@@ -627,6 +627,11 @@ document.addEventListener('DOMContentLoaded', function () {
   "name": "Header",
   "class": "section-header",
   "settings": [
+    {
+    "type": "color",
+    "id": "custom_header_color",
+    "label": "Custom banner color"
+    },
     {
       "type": "text",
       "id": "new_banner_test",

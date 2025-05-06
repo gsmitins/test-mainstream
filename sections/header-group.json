@@ -1,1 +1,149 @@
-{"type":"header","name":"Header Group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-2":{"type":"announcement","settings":{"text":"<strong>Free Local Pickup & Free Shipping Over $125<\/strong>","show_countdown":false,"hide_on_end":false,"end_date":"","end_time":"","number_font":"base","countdown_separator":"box","use_custom_colors":false,"bg_color":"#f4f6f8","bg_gradient":"","text_color":"#4c4c4b"}},"announcement_PfzcRL":{"type":"announcement","settings":{"text":"<strong>First Time Shoppers use code WELCOME15 for 15% off your order! <\/strong>","show_countdown":false,"hide_on_end":false,"end_date":"","end_time":"","number_font":"base","countdown_separator":"box","use_custom_colors":true,"bg_color":"#3c7c80","bg_gradient":"","text_color":"#ffffff"}}},"block_order":["announcement-2","announcement_PfzcRL"],"settings":{"message_font_size":15,"announcement_bar_col":"#5c5c5c","announcement_bar_gradient":"","announcement_text_col":"#ffffff","show_social_icons":true,"menu":"","enable_country_selector":true,"enable_language_selector":true}},"header":{"type":"header","settings":{"popular_searches_title":"Popular searches:","popular_collections_title":"Popular collections:","useful_pages_title":"Useful pages:","useful_page":"","logo":"shopify:\/\/shop_images\/Group_main_logo.svg","logo_img_width_int":340,"mobile_logo_img_width_int":200,"logo_h1":true,"enable_sticky":true,"enable_transparent":false,"transparent_color":"#ffffff","menu_linklist":"main-menu","menu_layout":"underneath","nav_featured_link":"Sale","menu_linklist_mobile":"","mobile_expand_with_entire_link":true,"enable_mobile_promo_carousel":true,"enable_nav_mob_products":false,"nav_mob_products_title":"Best Sellers","nav_mob_products_collection":"","enable_search":true,"enable_search_box":true,"search_text_cro":"Search...","search_recommendations_title":"","search_recommendations_menu":"","icon_strategy":"icons_only","cart_icon":"cart"}},"store-messages":{"type":"store-messages","blocks":{"1601308104445":{"type":"message","settings":{"heading":"","subheading":"Free shipping on orders over $100","link_url":""}},"1601308125690":{"type":"message","settings":{"heading":"","subheading":"Free Click & Collect to US stores*","link_url":""}},"1601308127822":{"type":"message","settings":{"heading":"","subheading":"Free and easy domestic returns","link_url":""}}},"block_order":["1601308104445","1601308125690","1601308127822"],"disabled":true,"settings":{"head_not_home_only":false,"head_not_col_bg":"#f4f6f8","head_not_col_txt1":"#171717","head_not_col_txt2":"#4c4c4b","head_not_mob_show":true,"head_not_mob_text":"Free shipping on orders over $100","head_not_mob_url":""}}},"order":["announcement-bar","header","store-messages"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "text": "<strong>Free Local Pickup & Free Shipping Over $125</strong>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#f4f6f8",
+            "bg_gradient": "",
+            "text_color": "#4c4c4b"
+          }
+        },
+        "announcement_PfzcRL": {
+          "type": "announcement",
+          "settings": {
+            "text": "<strong>First Time Shoppers use code WELCOME15 for 15% off your order! </strong>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": true,
+            "bg_color": "#3c7c80",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-2",
+        "announcement_PfzcRL"
+      ],
+      "settings": {
+        "message_font_size": 15,
+        "announcement_bar_col": "#5c5c5c",
+        "announcement_bar_gradient": "",
+        "announcement_text_col": "#ffffff",
+        "show_social_icons": true,
+        "menu": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "custom_header_color": "#005c6c",
+        "new_banner_test": "New Banner TEST",
+        "popular_searches_title": "Popular searches:",
+        "popular_collections_title": "Popular collections:",
+        "useful_pages_title": "Useful pages:",
+        "useful_page": "",
+        "logo": "shopify://shop_images/Group_main_logo.svg",
+        "logo_img_width_int": 340,
+        "mobile_logo_img_width_int": 200,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": false,
+        "transparent_color": "#ffffff",
+        "menu_linklist": "main-menu",
+        "menu_layout": "underneath",
+        "nav_featured_link": "Sale",
+        "menu_linklist_mobile": "",
+        "mobile_expand_with_entire_link": true,
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": false,
+        "nav_mob_products_title": "Best Sellers",
+        "nav_mob_products_collection": "",
+        "enable_search": true,
+        "enable_search_box": true,
+        "search_text_cro": "Search...",
+        "search_recommendations_title": "",
+        "search_recommendations_menu": "",
+        "icon_strategy": "icons_only",
+        "cart_icon": "cart"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "blocks": {
+        "1601308104445": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free shipping on orders over $100",
+            "link_url": ""
+          }
+        },
+        "1601308125690": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free Click & Collect to US stores*",
+            "link_url": ""
+          }
+        },
+        "1601308127822": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free and easy domestic returns",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1601308104445",
+        "1601308125690",
+        "1601308127822"
+      ],
+      "disabled": true,
+      "settings": {
+        "head_not_home_only": false,
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "Free shipping on orders over $100",
+        "head_not_mob_url": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "store-messages"
+  ]
+}
